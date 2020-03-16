@@ -1,0 +1,49 @@
+name: fluttercleanboilerplate
+description: A boilerplate with clean architecture pattern
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+  # Moor
+  moor_flutter: ^2.0.0
+
+  # Local cache
+  shared_preferences: ^0.5.4+5
+
+  # Built Value
+  built_value: 7.0.9
+
+  # Functional programming thingies
+  dartz: ^0.8.8
+
+  # Remote API
+  data_connection_checker: ^0.3.4
+
+  # Flutter Bloc
+  flutter_bloc: 2.1.1
+
+  # http
+  http: ^0.12.0+2
+
+  # Flutter Logger
+  logger: 0.8.1
+
+  # Value equality
+  equatable: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  moor_generator: ^2.1.1
+  chopper_generator: ^3.0.1+1
+  built_value_generator:
+  build_runner:
+
+flutter:
+  uses-material-design: true
