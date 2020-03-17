@@ -20,7 +20,7 @@ dependencies:
   built_value: 7.0.9
 
   # Functional programming thingies
-  dartz: ^0.8.8
+  dartz: ^0.8.9
 
   # Remote API
   data_connection_checker: ^0.3.4
