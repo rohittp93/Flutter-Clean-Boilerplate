@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'features/feeds/presentation/widgets/feeds_screen.dart';
+import 'package:fluttercleanboilerplate/presentation/widgets/feeds_screen.dart';
 
 void main() => runApp(MyApp());
 

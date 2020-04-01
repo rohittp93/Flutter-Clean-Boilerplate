@@ -3,8 +3,8 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:fluttercleanboilerplate/core/error/failures.dart';
 import 'package:fluttercleanboilerplate/core/usecase/usecase.dart';
-import 'package:fluttercleanboilerplate/features/feeds/domain/entities/Feed.dart';
-import 'package:fluttercleanboilerplate/features/feeds/domain/repositories/feeds_repository.dart';
+import 'package:fluttercleanboilerplate/domain/entities/Feed.dart';
+import 'package:fluttercleanboilerplate/domain/repositories/feeds_repository.dart';
 
 class GetHeadlines extends UseCase<Feed, Params> {
   final FeedsRepository feedsRepository;

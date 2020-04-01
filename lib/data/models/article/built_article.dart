@@ -1,19 +1,22 @@
 library built_article;
 
 import 'dart:convert';
-import 'package:built_collection/built_collection.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-import 'package:fluttercleanboilerplate/features/feeds/data/serializers/serializers.dart';
+import 'package:fluttercleanboilerplate/data/serializers/serializers.dart';
 
 part 'built_article.g.dart';
 
 abstract class BuiltArticle
     implements Built<BuiltArticle, BuiltArticleBuilder> {
   String get title;
+
   String get description;
+
   String get url;
+
   String get urlToImage;
+
   String get content;
 
   BuiltArticle._();

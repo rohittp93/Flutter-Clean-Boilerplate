@@ -11,7 +11,9 @@ dependencies:
   cupertino_icons: ^0.1.2
 
   # Moor
-  moor_flutter: ^2.0.0
+  moor_flutter:
+  moor_ffi: ^0.4.0
+
 
   # Local cache
   shared_preferences: ^0.5.4+5
@@ -31,6 +33,9 @@ dependencies:
   # http
   http: ^0.12.0+2
 
+  # Chopper Networking
+  chopper: ^3.0.1+1
+
   # Flutter Logger
   logger: 0.8.1
 
@@ -40,7 +45,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  moor_generator: ^2.1.1
+  moor_generator:
   chopper_generator: ^3.0.1+1
   built_value_generator:
   build_runner:

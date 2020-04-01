@@ -1,11 +1,11 @@
 library built_feed;
 
 import 'dart:convert';
-import 'package:built_collection/built_collection.dart';
 import 'package:built_value/built_value.dart';
 import 'package:built_value/serializer.dart';
-import 'package:fluttercleanboilerplate/features/feeds/data/models/built_article.dart';
-import 'package:fluttercleanboilerplate/features/feeds/data/serializers/serializers.dart';
+import 'package:fluttercleanboilerplate/data/serializers/serializers.dart';
+
+import '../article/built_article.dart';
 
 part 'built_feed.g.dart';
 
